@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Casual Shooter</title>
+</head>
+
+<body>
+    <main id="gameFrame" class="firstGame" onclick="myShootingEffects()">
+
+        <div id="healthBar"></div>
+
+        <div class="enemy" style="left: 030px;"></div>
+        <div class="enemy" style="left: 100px;"></div>
+        <div class="enemy" style="left: 230px;"></div>
+        <div class="enemy" style="left: 330px;"></div>
+        <div class="enemy" style="left: 500px;"></div>
+        <div class="enemy" style="left: 550px;"></div>
+        <div class="enemy" style="left: 030px;"></div>
+        <div class="enemy" style="left: 100px;"></div>
+        <div class="enemy" style="left: 230px;"></div>
+        <div class="enemy" style="left: 330px;"></div>
+        <div class="enemy" style="left: 500px;"></div>
+        <div class="enemy" style="left: 550px;"></div>
+
+        <button onclick="newGame()" id="newGame">
+
+            <span class="messageWon">
+                <span class="emoji">👏</span> You Won!!
+            </span>
+            <span class="messageDead">
+                <span class="emoji">😵</span> You Lost!!
+            </span>
+            <span class="messageWelcome">
+                <span class="emoji">🤖</span> Welcome
+            </span>
+
+            <p> New game</p>
+
+            <div id="score">Score : <pan>00</pan>
+            </div>
+
+        </button>
+
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
